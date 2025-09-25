@@ -1,0 +1,1 @@
+DESCRIBE iceberg_catalog.redpanda.demo1;

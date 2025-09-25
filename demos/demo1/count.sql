@@ -1,0 +1,1 @@
+SELECT count(*) FROM iceberg_catalog.redpanda.demo1;

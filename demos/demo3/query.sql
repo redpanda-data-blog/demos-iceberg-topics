@@ -1,0 +1,1 @@
+SELECT type, count(*) FROM iceberg_catalog.redpanda.telemetry group by type;

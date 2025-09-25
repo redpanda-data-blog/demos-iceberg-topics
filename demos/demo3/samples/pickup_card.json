@@ -1,0 +1,23 @@
+{
+  "card": 1,
+  "counter": 4841,
+  "session": "7843f99368399d1987339790",
+  "type": "pickup_card",
+  "frame": {
+    "millis": 44115,
+    "tic": 1544
+  },
+  "actor": {
+    "position": {
+      "x": 47668403,
+      "y": 54674404,
+      "z": 3670016,
+      "angle": 2516582400,
+      "subsector": 5815513200
+    },
+    "type": "player",
+    "health": 90,
+    "armor": 85,
+    "id": 5815639608
+  }
+}

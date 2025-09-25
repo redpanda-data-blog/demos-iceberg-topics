@@ -1,0 +1,1 @@
+jr run syslog_log -n 1000 -l > syslogs.json

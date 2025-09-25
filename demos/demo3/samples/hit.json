@@ -1,0 +1,34 @@
+{
+  "damage": 15,
+  "counter": 12215,
+  "session": "7843f99368399d1987339790",
+  "type": "hit",
+  "frame": {
+    "millis": 83116,
+    "tic": 2909
+  },
+  "actor": {
+    "position": {
+      "x": -84044928,
+      "y": 24800384,
+      "z": -11534336,
+      "angle": 2063464983,
+      "subsector": 5815510384
+    },
+    "type": "shotgun_soldier",
+    "health": 30,
+    "id": 5815684128
+  },
+  "target": {
+    "position": {
+      "x": -86970593,
+      "y": 26454620,
+      "z": -11534336,
+      "angle": 1073741824,
+      "subsector": 5815510256
+    },
+    "type": "shotgun_soldier",
+    "health": -6,
+    "id": 5815684656
+  }
+}

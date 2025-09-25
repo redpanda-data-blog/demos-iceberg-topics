@@ -1,0 +1,33 @@
+{
+  "counter": 11973,
+  "session": "7843f99368399d1987339790",
+  "type": "counter_attacked",
+  "frame": {
+    "millis": 82572,
+    "tic": 2890
+  },
+  "actor": {
+    "position": {
+      "x": -106260858,
+      "y": 38864637,
+      "z": -12058624,
+      "angle": 3758096384,
+      "subsector": 5815509760
+    },
+    "type": "soldier",
+    "health": 11,
+    "id": 5815648224
+  },
+  "target": {
+    "position": {
+      "x": -108141056,
+      "y": 49945088,
+      "z": -12058624,
+      "angle": 3310499120,
+      "subsector": 5815509760
+    },
+    "type": "soldier",
+    "health": 20,
+    "id": 5815647696
+  }
+}

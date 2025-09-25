@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "level": {
+      "type": "object",
+      "properties": {
+        "episode": {
+          "type": "integer"
+        },
+        "level": {
+          "type": "integer"
+        },
+        "difficulty": {
+          "type": "integer"
+        }
+      },
+      "required": ["episode", "level", "difficulty"]
+    },
+    "weapon_type": {
+      "type": "integer"
+    },
+    "armor_type": {
+      "type": "integer"
+    },
+    "health": {
+      "type": "integer"
+    },
+    "damage": {
+      "type": "integer"
+    },
+    "card": {
+      "type": "integer"
+    },
+    "armor": {
+      "type": "integer"
+    },
+    "counter": {
+      "type": "integer"
+    },
+    "session": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "frame": {
+      "type": "object",
+      "properties": {
+        "millis": {
+          "type": "integer"
+        },
+        "tic": {
+          "type": "integer"
+        }
+      },
+      "required": ["millis", "tic"]
+    },
+    "actor": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            },
+            "z": {
+              "type": "integer"
+            },
+            "angle": {
+              "type": "integer"
+            },
+            "subsector": {
+              "type": "integer"
+            }
+          },
+          "required": ["x", "y", "z", "angle", "subsector"]
+        },
+        "type": {
+          "type": "string"
+        },
+        "health": {
+          "type": "integer"
+        },
+        "armor": {
+          "type": "integer"
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": ["position", "type", "health", "armor", "id"]
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            },
+            "z": {
+              "type": "integer"
+            },
+            "angle": {
+              "type": "integer"
+            },
+            "subsector": {
+              "type": "integer"
+            }
+          },
+          "required": ["x", "y", "z", "angle", "subsector"]
+        },
+        "type": {
+          "type": "string"
+        },
+        "health": {
+          "type": "integer"
+        },
+        "armor": {
+          "type": "integer"
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": ["position", "type", "health", "armor", "id"]
+    }
+  }
+}

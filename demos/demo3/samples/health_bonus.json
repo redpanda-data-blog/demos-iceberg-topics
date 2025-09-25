@@ -1,0 +1,23 @@
+{
+  "health": 83,
+  "counter": 2839,
+  "session": "7843f99368399d1987339790",
+  "type": "health_bonus",
+  "frame": {
+    "millis": 30944,
+    "tic": 1083
+  },
+  "actor": {
+    "position": {
+      "x": 60814666,
+      "y": 21292704,
+      "z": 0,
+      "angle": 1090519040,
+      "subsector": 5815513040
+    },
+    "type": "player",
+    "health": 83,
+    "armor": 94,
+    "id": 5815639608
+  }
+}

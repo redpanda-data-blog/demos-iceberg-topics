@@ -1,0 +1,23 @@
+{
+  "health": 10,
+  "counter": 8889,
+  "session": "7843f99368399d1987339790",
+  "type": "pickup_health",
+  "frame": {
+    "millis": 67800,
+    "tic": 2373
+  },
+  "actor": {
+    "position": {
+      "x": -14108772,
+      "y": 53111356,
+      "z": 0,
+      "angle": 1946157056,
+      "subsector": 5815512000
+    },
+    "type": "player",
+    "health": 85,
+    "armor": 178,
+    "id": 5815639608
+  }
+}

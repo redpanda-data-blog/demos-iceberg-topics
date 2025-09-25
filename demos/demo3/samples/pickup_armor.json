@@ -1,0 +1,23 @@
+{
+  "armor_type": 1,
+  "counter": 13123,
+  "session": "7843f99368399d1987339790",
+  "type": "pickup_armor",
+  "frame": {
+    "millis": 96686,
+    "tic": 3384
+  },
+  "actor": {
+    "position": {
+      "x": -12271633,
+      "y": -211331781,
+      "z": 8388608,
+      "angle": 2119696384,
+      "subsector": 5816187808
+    },
+    "type": "player",
+    "health": 100,
+    "armor": 100,
+    "id": 5816267936
+  }
+}

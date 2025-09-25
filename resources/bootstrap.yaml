@@ -1,0 +1,29 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: bootstrap
+  namespace: ${POLARIS_NAMESPACE}
+spec:
+  template:
+    spec:
+      containers:
+        - name: bootstrap-container
+          image: paulmw/polaris-admin-tool:1.1.0-incubating-SNAPSHOT
+          command:
+            - java
+            - -jar
+            - /deployments/polaris-admin-tool.jar
+            - bootstrap
+            - -c
+            - POLARIS,root,pass
+            - -r
+            - POLARIS
+          env:
+            - name: QUARKUS_DATASOURCE_USERNAME
+              value: "polaris"
+            - name: QUARKUS_DATASOURCE_PASSWORD
+              value: "polaris123"
+            - name: QUARKUS_DATASOURCE_JDBC_URL
+              value: "jdbc:postgresql://local-postgresql.${POSTGRES_NAMESPACE}.svc.cluster.local:5432/polaris?currentSchema"
+      restartPolicy: Never
+  backoffLimit: 2

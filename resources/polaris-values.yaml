@@ -1,0 +1,24 @@
+persistence:
+  type: relational-jdbc
+  relationalJdbc:
+    secret:
+      name: postgres-creds
+      username: username
+      password: password
+      jdbcUrl: url
+
+extraEnv:
+  - name: POLARIS_BOOTSTRAP_CREDENTIALS
+    value: POLARIS,root,s3cr3t
+  - name: AWS_PROFILE
+    value: minio
+
+extraVolumes:
+  - name: credentials
+    secret:
+      secretName: aws-creds
+
+extraVolumeMounts:
+  - name: credentials
+    readOnly: true
+    mountPath: /home/polaris/.aws/

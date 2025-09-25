@@ -1,0 +1,23 @@
+{
+  "armor": 2,
+  "counter": 13066,
+  "session": "7843f99368399d1987339790",
+  "type": "armor_bonus",
+  "frame": {
+    "millis": 95859,
+    "tic": 3355
+  },
+  "actor": {
+    "position": {
+      "x": 347498,
+      "y": -211822566,
+      "z": 6815744,
+      "angle": 2119696384,
+      "subsector": 5816188096
+    },
+    "type": "player",
+    "health": 100,
+    "armor": 2,
+    "id": 5816267936
+  }
+}

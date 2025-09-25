@@ -1,0 +1,23 @@
+{
+  "weapon_type": 4,
+  "counter": 6978,
+  "session": "7843f99368399d1987339790",
+  "type": "pickup_weapon",
+  "frame": {
+    "millis": 56458,
+    "tic": 1976
+  },
+  "actor": {
+    "position": {
+      "x": 87031425,
+      "y": 5572949,
+      "z": -1048576,
+      "angle": 3154116608,
+      "subsector": 5815512720
+    },
+    "type": "player",
+    "health": 82,
+    "armor": 200,
+    "id": 5815639608
+  }
+}

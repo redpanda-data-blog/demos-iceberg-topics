@@ -1,0 +1,9 @@
+[submodule "polaris"]
+	path = polaris
+	url = https://github.com/apache/polaris.git
+[submodule "resources/polaris"]
+	path = resources/polaris
+	url = https://github.com/apache/polaris.git
+[submodule "resources/chocolate-doom"]
+	path = resources/chocolate-doom
+	url = https://github.com/pmw-rp/chocolate-doom.git

@@ -1,0 +1,23 @@
+{
+  "weapon_type": 1,
+  "counter": 13016,
+  "session": "7843f99368399d1987339790",
+  "type": "attacked",
+  "frame": {
+    "millis": 94974,
+    "tic": 3324
+  },
+  "actor": {
+    "position": {
+      "x": 12791163,
+      "y": -211955600,
+      "z": 4718592,
+      "angle": 2119696384,
+      "subsector": 5816187664
+    },
+    "type": "player",
+    "health": 100,
+    "armor": 0,
+    "id": 5816267936
+  }
+}

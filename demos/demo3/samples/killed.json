@@ -1,0 +1,34 @@
+{
+  "counter": 12216,
+  "session": "7843f99368399d1987339790",
+  "type": "killed",
+  "frame": {
+    "millis": 83116,
+    "tic": 2909
+  },
+  "actor": {
+    "position": {
+      "x": -95474656,
+      "y": 26215898,
+      "z": -12058624,
+      "angle": 150994944,
+      "subsector": 5815510240
+    },
+    "type": "player",
+    "health": 2,
+    "armor": 98,
+    "id": 5815639608
+  },
+  "target": {
+    "position": {
+      "x": -86970593,
+      "y": 26454620,
+      "z": -11534336,
+      "angle": 1073741824,
+      "subsector": 5815510256
+    },
+    "type": "shotgun_soldier",
+    "health": -6,
+    "id": 5815684656
+  }
+}

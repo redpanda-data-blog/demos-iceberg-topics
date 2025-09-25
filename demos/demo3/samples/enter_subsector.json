@@ -1,0 +1,22 @@
+{
+  "counter": 13161,
+  "session": "7843f99368399d1987339790",
+  "type": "enter_subsector",
+  "frame": {
+    "millis": 97259,
+    "tic": 3404
+  },
+  "actor": {
+    "position": {
+      "x": -11779917,
+      "y": -211381952,
+      "z": 8388608,
+      "angle": 2035810304,
+      "subsector": 5816187728
+    },
+    "type": "player",
+    "health": 100,
+    "armor": 100,
+    "id": 5816267936
+  }
+}
