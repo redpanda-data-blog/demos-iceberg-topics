@@ -1,6 +1,8 @@
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 pushd $SCRIPT_DIR
 
+source ./config
+
 # Install Minio
 
 kubectl create namespace $MINIO_NAMESPACE

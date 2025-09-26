@@ -1,6 +1,8 @@
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 pushd $SCRIPT_DIR
 
+source ./config
+
 ## Get an access token
 export TOKEN=$(curl -s http://localhost:8181/api/catalog/v1/oauth/tokens \
   --user root:pass \

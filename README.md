@@ -12,10 +12,10 @@ Welcome to the Redpanda Iceberg demo. This demo will install and configure the f
 
 ### Configure Namespaces
 
-First, configure the namespaces you want to install to by editing [`env`](./env):
+First, configure the namespaces you want to install to by editing [`config`](config):
 
 ```zsh
-vim env
+vim config
 ```
 
 ```zsh
@@ -24,11 +24,6 @@ export POSTGRES_NAMESPACE=postgres
 export POLARIS_NAMESPACE=polaris
 export REDPANDA_NAMESPACE=redpanda
 export DUCKDB_NAMESPACE=duckdb
-```
-Next, source the `env` file to make the environment variables visible:
-
-```bash
-source env
 ```
 
 ### Build Doom (Optional)
