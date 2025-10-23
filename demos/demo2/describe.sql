@@ -1,1 +1,1 @@
-DESCRIBE iceberg_catalog.redpanda.demo1;
+DESCRIBE iceberg_catalog.redpanda.syslog;
