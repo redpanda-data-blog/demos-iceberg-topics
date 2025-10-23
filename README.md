@@ -23,7 +23,7 @@ export MINIO_NAMESPACE=minio
 export POSTGRES_NAMESPACE=postgres
 export POLARIS_NAMESPACE=polaris
 export REDPANDA_NAMESPACE=redpanda
-export DUCKDB_NAMESPACE=duckdb
+export DUCKDB_NAMESPACE=duckdb.sh
 ```
 
 ### Build Doom (Optional)
