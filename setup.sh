@@ -183,9 +183,9 @@ auth:
     enabled: false
 EOF
 
-#external:
-#  service:
-#    enabled: false
+kubectl port-forward pod/redpanda-0 -n $REDPANDA_NAMESPACE 8081 9094 9644 &
+echo $! > port-forward.pid
+rpk profile create local-bcced7fb -s brokers=localhost:9094 -s admin.hosts=localhost:9644 || rpk profile use local-bcced7fb
 
 # Create a Ubuntu pod to run DuckDB
 
